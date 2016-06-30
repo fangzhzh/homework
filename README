@@ -1,0 +1,6 @@
+# start frontend
+cd frontend
+## env 
+source ../env_homework/bin/activate
+## start server at public ip
+python manage.py runserver 0.0.0.0:8001
